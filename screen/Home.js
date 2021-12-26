@@ -13,13 +13,6 @@ import HeaderTabs from '../components/HeaderTabs';
 import { auth, db } from '../firebase'
 import firebase from 'firebase';
 
-const api = [
-	require('../assets/movie1.jpg'),
-	require('../assets/movie2.jpg'),
-	require('../assets/movie3.jpg'),
-	require('../assets/movie4.jpg')
-]
-
 const Container = styled.ScrollView`
 	flex: 1;
 	background-color: #000;
@@ -51,17 +44,16 @@ const Home = ({ navigation }) => {
 	useLayoutEffect(() => {
 		const unsubscribe = db
 			.collection("movies")
-			.onSnapshot((snapshot) =>
-				{
-					const movs = snapshot.docs.map((doc) => ({
-						id: doc.id,
-						data: doc.data(),
-					}));
+			.onSnapshot((snapshot) => {
+				const movs = snapshot.docs.map((doc) => ({
+					id: doc.id,
+					data: doc.data(),
+				}));
 
-					
 
-					setMovies(movs);
-				}
+
+				setMovies(movs);
+			}
 			);
 		return unsubscribe;
 	}, []);

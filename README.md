@@ -1,6 +1,6 @@
 # Netflix-Clone-ReactNative
  
-Projenin GitHub Linki: [https://github.com/ArifYusufYilmaz/Netflix-Clone-ReactNative ](https://github.com/ArifYusufYilmaz/Netflix-Clone-ReactNative)Projenin APK linki: [https://drive.google.com/file/d/15gtmxHnpXNk6IHTJkNQdKmHmEIpFsVqR/view?usp=sharin g](https://drive.google.com/file/d/15gtmxHnpXNk6IHTJkNQdKmHmEIpFsVqR/view?usp=sharing)
+Projenin APK linki: [https://drive.google.com/file/d/15gtmxHnpXNk6IHTJkNQdKmHmEIpFsVqR/view?usp=sharing](https://drive.google.com/file/d/15gtmxHnpXNk6IHTJkNQdKmHmEIpFsVqR/view?usp=sharing)
 
 Genel Bakış:
 

@@ -33,7 +33,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/splash2.png",
         "backgroundColor": "#000000"
-      }
+      },
+      "package": "com.arifdamar.netflixclone"
     },
     "web": {
       "favicon": "./assets/favicon.png"
